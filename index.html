@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<title>Barbearia</title>
+		<meta charset="utf-8">
+		<link href = "barbearia.css" rel = "stylesheet"
+	</head>
+	
+	<body>
+		<div class="site">
+						
+		<div class="headerpai">
+			<header id="topo">
+			<h1> <img src="imagens/bigode.png"> -Barbearia Realeza- </h1>
+			<nav id="menu">
+				<ul>
+					<li><a href="#sobre">Sobre nós</a></li>
+					<li><a href="#servicos">Serviços</a></li>
+					<li><a href="#profissionais">Profissionais</a></li>
+					<li><a href="#localizacao">Localização</a></li>
+					<li><a href="#agendamento">Agendamento</a></li>
+				</ul>
+			</nav>
+			</header>
+		</div>
+		 <br> <br> 
+		
+		<section id="capa">
+		
+		</section>
+		
+		<br> <br> <br>  <br>  <br>  <br>
+		
+		<section id="sobre">
+		<div class="box">
+			<h2> Sobre Nós </h2>
+			<p>
+			A Barbearia Realeza é a barbearia da sua época.<br> Focada em excelência, a Realeza conta com tudo que o homem moderno precisa. <BR>Um ambiente confortável, descontraído e exclusivamente masculino<br> com cuidados para todos os estilos de barba e cabelo, <BR>além de serviços como massagem, podologia, 
+			estética masculina e dia do noivo.<BR> Uma barbearia premium, para cuidar do visual, assistir aos seus esportes favoritos ou jogar uma partida de sinuca.
+			Seja um confrade. <br>
+			Uma das maiores premiações da América Latina, o 8º Prêmio Cabelos&Cia,<br> promovido pela Revista Cabelos&cia, destaca os profissionais da beleza de 2017.<br> Pela primeira vez, houve premiação destinada aos melhores barbeiros (as) e melhores barbearias<br>
+
+			A Barbearia Realeza foi escolhida como a SEGUNDA MELHOR BARBEARIA DO BRASIL.<br>
+			Cadastre-se e receba as novidades, eventos e condições especiais da Barbearia Realeza
+			
+			</p>
+		</div>
+		<br><br>
+		<img src="imagens/fundo.jpg">
+		</section>
+		
+		
+		
+		<section id="servicos">
+		
+		<h2 id="titulo"> Serviços </h2>
+		<div class="elementos-serv">
+			<div>
+			   <h3>CORTE MASCULINO</h3>
+			   <p>R$20,00</p>
+			   <img src ="imagens/serv1.jpg">
+			</div>
+			
+			<div>
+			   <h3>BARBA DESENHADA</h3>
+			   <p>R$20,00</p>
+			   <img src ="imagens/serv2.jpg">
+			</div>
+			
+			<div>
+			   <h3>BARBA EXECUTIVA </h3>
+			   <p>R$25,00</p>
+			   <img src ="imagens/serv3.jpg">
+			</div>
+			
+			<div>
+			   <h3> COMBO NYB</h3>
+			   <p>R$35,00</p>
+			   <img src ="imagens/serv4.jpg">
+			</div>
+			
+		</div>
+		
+		</section>
+		
+		<br> <br> <br>
+		
+		<section id="profissionais">
+		
+		<h2 id="pro"> Nossos Profissionais </h2>
+		
+		<div class="profis"> 
+			<div>
+				<h3>Ludmylla (propietária) </h3>
+				<img src="imagens/lud.jpg">
+			</div>
+			<div>
+				<h3>Paulo Marcos</h3>
+				<img src="imagens/marcos.jpg">
+			</div>
+			<div>
+				<h3>Gabriel</h3>
+				<img src="imagens/gabriel.jpg">
+			</div>
+			<div>
+				<h3>João Vinicius</h3>
+				<img src="imagens/joao.jpg">
+			</div>
+		</div>
+		
+		</section>
+		
+		<br> <br> <br>
+		
+		<section id="localizacao">
+		<h2> Localização </h2>
+			<section id="loc">
+			<p>Unidade NY Brooklin I
+			Av. Santo Amaro, 4530
+			Brooklin,  São Paulo - SP
+			Estacionamento Gratuito
+			(dentro do Supermercado Pão de Açúcar)
+			- Esquina com a Av. Morumbi -</p>
+			
+			<img src="imagens/local.jpg" id="img">
+			</section>
+		
+		</section>
+		
+		<br> <br> <br> <br>
+		
+		<section id="agendamento">
+		<form action="arquivo.php" method="GET">
+			<div>
+				<h2> Agendamento </h2>
+				<br> 
+				<label> Nome:
+					<input type="text" name="nomecompleto" placeholder="Digite seu nome completo"> 
+				</label>
+            </div> 
+			
+			<br> 
+			 
+			<div>
+			
+			<fieldset>
+			<legend> Servico </legend>
+			<label>
+				<input type="checkbox"name="disciplinas" value="Português"> CORTE MASCULINO---R$50,00
+				<br> <br> <br> 
+				<input type="checkbox"name="disciplinas" value="Matemática" >BARBA AMERICANA TRADICIONAL DESENHADA---R$50,00  <!---  mantém o mesmo name e type --->
+				<br> <br> <br>
+				<input type="checkbox"name="disciplinas" value="Biologia" >BARBA AMERICANA EXECUTIVA---R$70,00 <!---  mantém o mesmo name e type --->
+				<br> <br> <br> 
+				<input type="checkbox"name="disciplinas" value="Biologia" > >COMBO NYB---R$95,00
+				<br> <br> <br>
+			</label>
+			</fieldset>
+			</div> 
+			
+			<br>
+			
+			<div>
+			<label>Que dia é melhor ?:
+				<input type="date" name="datanasc">
+				
+			</label>
+			<br> <br> 
+			
+			<fieldset>
+                            <legend>HORARIO DO ATENDIMENTO</legend>
+			<label>
+				<input type="radio" name="HORA" > 7:00 am
+				<input type="radio" name="HORA" > 8:00 am
+				<input type="radio" name="HORA" > 9:00 am
+				<input type="radio" name="HORA" > 10:00 am
+				<input type="radio" name="HORA" > 11:00 am
+				<input type="radio" name="HORA" > 1;00 pm
+				<input type="radio" name="HORA" > 2;00 pm
+				<input type="radio" name="HORA" > 3;00 pm
+				<input type="radio" name="HORA" > 4;00 pm
+				<input type="radio" name="HORA" > 5;00 pm
+				<input type="radio" name="HORA" > 6;00 pm
+			</label>
+			 
+			</fieldset>
+			
+			<br> <br>
+			
+			</div>
+		</section>
+		
+		<br> <br> <br> <br> 
+	
+  </body>
+</html>
